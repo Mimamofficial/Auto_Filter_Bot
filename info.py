@@ -55,7 +55,7 @@ UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/AV_MOVIES_W
 
 #Force Subscription Channel (Put Same Channel Id In Both Veriables)
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1003045073799')) 
-AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1003045073799'))')
+AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1003334117443'))')
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1003266490816')) #Verification Channel Id 
@@ -84,7 +84,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "8")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Share & Support Us ♥️')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+4LbUxZR-F6NmODQ1') #Support Chat Link
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+niSAUuhRTY80MTU9') #Support Chat Link
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
